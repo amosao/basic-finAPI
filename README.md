@@ -9,19 +9,19 @@ O projeto contêm alguns conceitos simples de uma API financeira de maneira bás
 - [x]  Buscar o extrato bancário do cliente
 - [x]  Realizar um depósito
 - [x]  Realizar um saque
-- [ ]  Buscar o extrato bancário do cliente por data
-- [ ]  atualizar dados da conta do cliente
-- [ ]  obter dados da conta do cliente
-- [ ]  deletar uma conta
+- [x]  Buscar o extrato bancário do cliente por data
+- [x]  atualizar dados da conta do cliente
+- [x]  obter dados da conta do cliente
+- [x]  deletar uma conta
 
 ### Regras de negócio
 
 - [x]  Não deve ser possível cadastrar uma conta com CPF já existente
 - [x]  Não deve ser possível buscar extrato em uma conta não existente
 - [x]  Não deve ser possível fazer depósito em uma conta não existente
-- [ ]  Não deve ser possível fazer saque em uma conta não existente
-- [ ]  Não deve ser possível fazer saque quando o saldo for insuficiente
-- [ ]  Não deve ser possível excluir uma conta não existente
+- [x]  Não deve ser possível fazer saque em uma conta não existente
+- [x]  Não deve ser possível fazer saque quando o saldo for insuficiente
+- [x]  Não deve ser possível excluir uma conta não existente
 ## Executar localmente
 
 Clone o projeto
@@ -29,6 +29,7 @@ Clone o projeto
 ```bash
   git clone https://github.com/Amosao/basic-finAPI.git
 ```
+> Essa branch é a release_1.0
 
 Vá para o diretório do projeto
 
