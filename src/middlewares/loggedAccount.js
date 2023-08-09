@@ -1,5 +1,5 @@
-const accountServices = require('../services/accounts/AccountsService');
-const { isNullOrUndefinedAnyElement, isNullOrUndefined } = require('../util/ObjectUtil');
+const accountServices = require('../services/account/AccountService');
+const { isNullOrUndefined } = require('../util/ObjectUtil');
 
 function loggedAccount( req, res, next ) {
     const { document } = req.headers;

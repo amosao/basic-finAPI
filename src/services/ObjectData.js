@@ -12,4 +12,20 @@ function addData(filePath, obj) {
     fs.writeFileSync(filePath, JSON.stringify(data), DEFAULT_ENCONDING);
 }
 
-module.exports = {getObjectData, addData}
+function updateData(filePath, obj, index) {
+    var data = getObjectData(filePath);
+    data[index] = obj;
+
+    fs.writeFileSync(filePath, JSON.stringify(data), DEFAULT_ENCONDING);
+}
+
+function updateAll( filePath, obj ) {
+    fs.writeFileSync(filePath, JSON.stringify(obj), DEFAULT_ENCONDING);
+}
+
+module.exports = {
+    getObjectData,
+    addData,
+    updateAll,
+    updateData
+}
