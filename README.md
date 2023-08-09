@@ -29,7 +29,7 @@ Clone o projeto
 ```bash
   git clone https://github.com/Amosao/basic-finAPI.git
 ```
-> Essa branch é a release_1.0
+> Essa branch é a v1.0
 
 Vá para o diretório do projeto
 
