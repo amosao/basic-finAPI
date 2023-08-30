@@ -1,27 +1,29 @@
 
-# BasicFinAPI
+![alt text](./assets/readmeBanner.png)
 
-O projeto contêm alguns conceitos simples de uma API financeira de maneira básica.
+Esse projeto tem por finalidade melhorar a, cada versão, uma API simples de um Fintech.
+
+Para cada versão será adicionado novas ferramentas e complexidade em sua infraestrutura. Os projetos funcionarão apenas na sua máquina local.
 
 ## Funcionalidades
 
-- [x]  Criar uma conta
-- [x]  Buscar o extrato bancário do cliente
-- [x]  Realizar um depósito
-- [x]  Realizar um saque
-- [x]  Buscar o extrato bancário do cliente por data
-- [x]  atualizar dados da conta do cliente
-- [x]  obter dados da conta do cliente
-- [x]  deletar uma conta
+- Criar uma conta
+- Buscar o extrato bancário do cliente
+- Realizar um depósito
+- Realizar um saque
+- Buscar o extrato bancário do cliente por data
+- Atualizar dados da conta do cliente
+- Obter dados da conta do cliente
+- Desativar uma conta
 
 ### Regras de negócio
 
-- [x]  Não deve ser possível cadastrar uma conta com CPF já existente
-- [x]  Não deve ser possível buscar extrato em uma conta não existente
-- [x]  Não deve ser possível fazer depósito em uma conta não existente
-- [x]  Não deve ser possível fazer saque em uma conta não existente
-- [x]  Não deve ser possível fazer saque quando o saldo for insuficiente
-- [x]  Não deve ser possível excluir uma conta não existente
+- Não deve ser possível cadastrar uma conta com CPF já existente
+- Não deve ser possível buscar extrato em uma conta não existente
+- Não deve ser possível fazer depósito em uma conta não existente
+- Não deve ser possível fazer saque em uma conta não existente
+- Não deve ser possível fazer saque quando o saldo for insuficiente
+- Não deve ser possível excluir uma conta não existente
 ## Executar localmente
 
 Clone o projeto
@@ -29,7 +31,7 @@ Clone o projeto
 ```bash
   git clone https://github.com/Amosao/basic-finAPI.git
 ```
-> Essa branch é a v1.0
+> Dê checkout para a branch "v1.0"
 
 Vá para o diretório do projeto
 
