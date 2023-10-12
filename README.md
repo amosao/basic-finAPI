@@ -1,7 +1,7 @@
 
 ![alt text](./assets/readmeBanner.png)
 
-Esse projeto tem por finalidade melhorar a, cada versão, uma API simples de um Fintech.
+Esse projeto tem por finalidade melhorar,a cada versão, uma API simples de um Fintech.
 
 Para cada versão será adicionado novas ferramentas e complexidade em sua infraestrutura. Os projetos funcionarão apenas na sua máquina local.
 
